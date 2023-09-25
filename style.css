@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caveat&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Public+Sans:wght@100&family=Roboto+Slab:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: Roboto;
+    font-family: Roboto;
+    font-size: 14px;
+
+}
+
+.container {
+    width: 336px;
+    /*height: 236px;*/
+    border: 1px solid #C4C4C4;
+    border-radius: 11px;
+}
+
+.yellow-part {
+    width: 336px;
+    height: 28px;
+    background: #FFDC40;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+}
+
+.filter-img {
+    width: 25px;
+    height: 15px;
+    margin-left: 280px;
+    margin-bottom: 11px;
+}
+
+.input-div {
+    display: flex;
+}
+
+input[type=text] {
+    width: 286px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px;
+    border: 1px solid #C4C4C4;
+    background: rgba(196, 196, 196, 0.00);
+    box-sizing: border-box;
+    padding-left: 25px;
+    font-size: 15px;
+    margin-left: 28px;
+
+}
+
+.input-delete {
+    width: 20px;
+    height: 20px;
+    margin-left: -35px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+li {
+    display: flex;
+    position: relative;
+}
+
+.list-container {
+    overflow-y: auto;
+    max-height: 200px;
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.listDelete {
+    position: absolute;
+    z-index: 999;
+    left: 230px;
+    top: 14px;
+
+}
+
+.listDelete:hover {
+    content: url(./assets/hoverdelete.png);
+}
+
+.bottom-div {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 18px;
+    margin-bottom: 19px;
+
+}
+
+
+.submit {
+    width: 150px;
+    height: 42px;
+    border-radius: 71px;
+    background-color: #833AE0;
+    border: none;
+    color: white;
+    font-size: 15px;
+
+}
+
+.plus {
+    width: 42px;
+    height: 42px;
+    border-radius: 71px;
+    background-color: #9953F1;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    position: absolute;
+    left: 90px;
+    top: 0px;
+
+}
+
+.plus-text {
+    font-size: 14px;
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
